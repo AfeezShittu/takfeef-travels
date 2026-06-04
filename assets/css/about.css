@@ -1,0 +1,87 @@
+.about-header {
+  background: linear-gradient(135deg, var(--color-primary), var(--color-primary-container));
+}
+
+.about-header .eyebrow {
+  color: var(--color-secondary-bright);
+  font-family: var(--font-heading);
+  font-size: 20px;
+  font-style: italic;
+  letter-spacing: 0;
+  margin-top: 12px;
+  text-transform: none;
+}
+
+.story-copy {
+  display: grid;
+  gap: 18px;
+  margin-top: 22px;
+}
+
+.mission-grid {
+  display: grid;
+  gap: 24px;
+  grid-template-columns: 1fr 1fr;
+}
+
+.mission-card {
+  border-left: 5px solid var(--color-primary);
+  padding: 32px;
+}
+
+.difference {
+  background: var(--color-surface-low);
+}
+
+.difference-grid,
+.team-grid {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.difference-card,
+.team-card {
+  padding: 30px;
+  text-align: center;
+}
+
+.difference-card .icon-pill {
+  border-radius: var(--radius-full);
+  margin-inline: auto;
+}
+
+.team-card img {
+  aspect-ratio: 1;
+  border-radius: var(--radius-full);
+  height: 160px;
+  margin-inline: auto;
+  object-fit: cover;
+  width: 160px;
+}
+
+.role {
+  color: var(--color-secondary);
+  display: block;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  margin: 8px 0 10px;
+  text-transform: uppercase;
+}
+
+.about-cta {
+  background: var(--color-primary);
+  color: #ffffff;
+  text-align: center;
+}
+
+.about-cta .section-heading {
+  color: #ffffff;
+}
+
+@media (max-width: 900px) {
+  .mission-grid,
+  .difference-grid,
+  .team-grid {
+    grid-template-columns: 1fr;
+  }
+}

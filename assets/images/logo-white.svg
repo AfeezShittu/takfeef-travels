@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 96" role="img" aria-labelledby="title">
+  <title id="title">Takfeef Travels</title>
+  <rect width="96" height="96" rx="20" fill="#ffffff"/>
+  <path d="M48 18c-12 0-22 10-22 22v28h44V40c0-12-10-22-22-22Z" fill="#064e3b"/>
+  <path d="M35 69V41c0-7 6-13 13-13s13 6 13 13v28" fill="#ffffff"/>
+  <path d="M24 72h48v8H24z" fill="#fe932c"/>
+  <text x="116" y="45" font-family="Georgia, serif" font-size="31" font-weight="700" fill="#ffffff">Takfeef</text>
+  <text x="118" y="70" font-family="Arial, sans-serif" font-size="18" font-weight="600" letter-spacing="4" fill="#ffdcc3">TRAVELS</text>
+</svg>
