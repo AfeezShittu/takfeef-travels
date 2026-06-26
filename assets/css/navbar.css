@@ -39,7 +39,7 @@
   content: "Takfeef Travels";
   font-family: var(--font-heading);
   font-size: 20px;
-  font-weight: 700;
+  font-weight: 900;
   line-height: 1;
   background: linear-gradient(90deg, var(--color-primary) 0 56%, var(--color-secondary-bright) 56% 100%);
   -webkit-background-clip: text;
