@@ -1,5 +1,5 @@
 .footer {
-  background: #292b28;
+  background: var(--color-dark-surface);
   color: rgba(255, 255, 255, 0.82);
   padding-top: 64px;
 }
@@ -14,7 +14,7 @@
 }
 
 .footer-logo {
-  height: 62px;
+  height: 76px;
   margin-bottom: 18px;
   width: auto;
 }

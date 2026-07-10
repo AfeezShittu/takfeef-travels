@@ -1,6 +1,6 @@
 .navbar {
-  background: rgba(251, 248, 252, 0.92);
-  box-shadow: 0 1px 0 rgba(191, 201, 195, 0.45);
+  background: rgba(247, 251, 253, 0.94);
+  box-shadow: 0 1px 0 rgba(190, 208, 216, 0.56);
   left: 0;
   position: fixed;
   right: 0;
@@ -25,7 +25,7 @@
 }
 
 .nav-logo img {
-  height: 52px;
+  height: 58px;
   width: auto;
 }
 
@@ -36,16 +36,7 @@
 }
 
 .nav-logo::after {
-  content: "Takfeef Travels";
-  font-family: var(--font-heading);
-  font-size: 20px;
-  font-weight: 900;
-  line-height: 1;
-  background: linear-gradient(90deg, var(--color-primary) 0 56%, var(--color-secondary-bright) 56% 100%);
-  -webkit-background-clip: text;
-  background-clip: text;
-  color: transparent;
-  white-space: nowrap;
+  content: none;
 }
 
 .nav-links {
@@ -56,8 +47,9 @@
 
 .nav-link {
   color: var(--color-text-primary);
-  font-size: 14px;
-  font-weight: 600;
+  font-size: 13px;
+  font-weight: 800;
+  letter-spacing: 0.03em;
   padding-block: 8px;
   position: relative;
 }
@@ -146,11 +138,7 @@
 }
 
 @media (max-width: 420px) {
-  .nav-logo::after {
-    font-size: 17px;
-  }
-
   .nav-logo img {
-    height: 46px;
+    height: 50px;
   }
 }

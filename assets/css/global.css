@@ -1,24 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700;9..144,800;9..144,900&family=Manrope:wght@400;500;600;700;800&display=swap');
 
 :root {
-  --color-primary: #183810;
-  --color-primary-container: #204810;
-  --color-primary-accent: #58a038;
-  --color-secondary: #8a5a18;
-  --color-secondary-bright: #c09050;
-  --color-secondary-soft: #f3dec0;
-  --color-background: #fbf8fc;
+  --color-primary: #0f4368;
+  --color-primary-container: #1f7890;
+  --color-primary-accent: #d6eef4;
+  --color-secondary: #9a6a22;
+  --color-secondary-bright: #c79645;
+  --color-secondary-soft: #f5e5c8;
+  --color-background: #f7fbfd;
   --color-surface: #ffffff;
   --color-surface-low: #f5f3f6;
   --color-surface-high: #eae7eb;
   --color-text-primary: #1b1b1e;
-  --color-text-secondary: #404944;
-  --color-text-muted: #707974;
+  --color-text-secondary: #3f5260;
+  --color-text-muted: #6f7f88;
   --color-text-on-primary: #ffffff;
-  --color-dark-surface: #172714;
+  --color-dark-surface: #082c49;
   --color-whatsapp: #25d366;
   --color-error: #ba1a1a;
-  --color-outline: #bfc9c3;
+  --color-outline: #bed0d8;
   --font-heading: 'Fraunces', Georgia, serif;
   --font-body: 'Manrope', Arial, sans-serif;
   --text-display: 48px;
@@ -35,8 +35,8 @@
   --radius-lg: 16px;
   --radius-xl: 24px;
   --radius-full: 9999px;
-  --shadow-card: 0 4px 12px rgba(24, 56, 16, 0.05);
-  --shadow-button: 0 2px 8px rgba(24, 56, 16, 0.16);
+  --shadow-card: 0 12px 34px rgba(15, 67, 104, 0.08);
+  --shadow-button: 0 8px 22px rgba(15, 67, 104, 0.18);
   --shadow-nav: 0 2px 20px rgba(0, 0, 0, 0.08);
 }
 
@@ -117,7 +117,7 @@ textarea {
 .btn {
   align-items: center;
   border: 1px solid transparent;
-  border-radius: var(--radius-md);
+  border-radius: var(--radius-full);
   cursor: pointer;
   display: inline-flex;
   font-size: 14px;
@@ -145,7 +145,7 @@ textarea {
 
 .btn-amber {
   background: var(--color-secondary-bright);
-  color: #2f1500;
+  color: #201100;
 }
 
 .btn-outline {
@@ -160,14 +160,14 @@ textarea {
 
 .card {
   background: var(--color-surface);
-  border: 1px solid rgba(191, 201, 195, 0.48);
-  border-radius: var(--radius-lg);
+  border: 1px solid rgba(190, 208, 216, 0.72);
+  border-radius: var(--radius-xl);
   box-shadow: var(--shadow-card);
 }
 
 .icon-pill {
   align-items: center;
-  background: rgba(149, 211, 186, 0.42);
+  background: rgba(31, 120, 144, 0.12);
   border-radius: var(--radius-md);
   color: var(--color-primary);
   display: inline-flex;
